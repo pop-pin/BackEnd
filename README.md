@@ -73,18 +73,22 @@ Mapbox를 사용하여 기본적인 지도 구성과 데이터 시각화를 구�
 ## 2.3 백엔드 및 배포
 ### 2.3.1 OAuth2.0 로그인 및 JWT 토큰
 회원가입과 같은 불필요한 절차를 줄여 사용자의 편의를 높이기 위해 OAuth2.0 기반의 로그인 시스템을 구현했습니다. 또한 JWT토큰을 엑세스 토큰과 리프세쉬 토큰으로 나눠서 발급해 보안처리를 하였습니다.
+
 ![image](https://github.com/pop-pin/BackEnd/assets/118061713/daa299e1-d0dc-4074-9ee9-2c3fbc1242dd)
 
 ### 2.3.2 마이크로서비스 및 API Gateway
 서비스의 확장성과 관리 용이성을 위해 마이크로서비스 아키텍처를 채택하였습니다. 또한 API Gateway를 통해 요청이 들어올 때 필터를 통한 토큰의 유효성 검사를 진행하는 등 여러 마이크로서비스의 설정을 용이하게 하기 위해 사용하였습니다.
+
 ![image](https://github.com/pop-pin/BackEnd/assets/118061713/b837bf8a-f112-46fe-83da-624b6c64d261)
 
 ### 2.3.3 Aggregate 프레임워크
 크롤링을 통해 MongoDB에 저장된 데이터를 Aggregate 프레임워크를 사용하여 서울시의 구별로 데이터를 분리하여 평균 평점을 계산하는 등의 서비스 로직을 구현하는데 사용하였습니다.
+
 ![image](https://github.com/pop-pin/BackEnd/assets/118061713/ffc124d9-0195-406a-9d43-11065e86e6a0)
 
 ### 2.3.4 Redis를 통한 성능 향상
 사용자가 특정한 가게에 좋아요를 누르는 상황에서 Redis를 사용하여 사용자 경험을 크게 향상시키고자 하였습니다. 또한 데이터의 무결성을 보장하기 위해 주기적으로 데이터베이스로 동기화하는 기능도 구현하였습니다.
+
 ![image](https://github.com/pop-pin/BackEnd/assets/118061713/1384d82a-6733-4a8d-8bb4-7b0232c5b0a6)
 
 ---
@@ -92,6 +96,7 @@ Mapbox를 사용하여 기본적인 지도 구성과 데이터 시각화를 구�
 ## 2.4 배포 인프라
 a. Kubernetes를 통한 서비스 매니지먼트 
 Kubernetes를 통해 서비스 컨테이너들을 관리하며, Istio와 같은 Service Mesh, ELK, Grafana를 활용한 모니터링을 통해 디버깅에 필요한 시간을 단축하여 개발자의 편의를 향상시킵니다. 또한 iptables을 IPVS로 대체하여 기존의 Kubernetes Cluster에서 Chain으로 인하여 발생하는 성능이슈를 해소했습니다.
+
 ![image](https://github.com/pop-pin/BackEnd/assets/118061713/b498ad32-e1a1-4d39-9060-2ade2469aa2e)
 
 b. Git을 활용한 코드 및 클러스터 관리
