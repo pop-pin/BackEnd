@@ -1,0 +1,18 @@
+[submodule "user-service"]
+	path = user-service
+	url = https://github.com/pop-pin/user-service.git
+[submodule "location-service"]
+	path = location-service
+	url = https://github.com/pop-pin/location-service.git
+[submodule "like-service"]
+	path = like-service
+	url = https://github.com/pop-pin/like-service.git
+[submodule "review-service"]
+	path = review-service
+	url = https://github.com/pop-pin/review-service.git
+[submodule "category-service"]
+	path = category-service
+	url = https://github.com/pop-pin/category-service.git
+[submodule "gateway"]
+	path = gateway
+	url = https://github.com/pop-pin/gateway.git
