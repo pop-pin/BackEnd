@@ -24,6 +24,13 @@
 
 <br>
 
+### 📱 주요 기능
+- 사용자에게 추천 가게들은 한눈에 보여주는 지도
+- 사용자 리뷰
+- 제휴 가게들에 대한 쿠폰 발급
+
+<br>
+
 # 🔥 기능
 
 ### 📑기능 리스트
@@ -166,7 +173,7 @@ ELK, Prometheus을 활용하여 클러스터 내부의 Node 및 Daemon을 모니
 
 <br><br>
 
-### 👊 Code Convention
+### ⭐ Code Convention
 
 ---
 
@@ -264,7 +271,7 @@ URL은 RESTful API 설계 가이드에 따라 작성합니다.
 
 <br>
 
-### 👊 Commit Convention
+### ☀️ Commit Convention
 
 ---
 
