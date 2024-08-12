@@ -31,6 +31,19 @@
 
 <br>
 
+# 👥 팀원 및 역할
+
+| Profile | Name | Role |
+| :---: | :---: | :---: |
+| <a href="https://github.com/YanyChoi"><img src="https://github.com/user-attachments/assets/13c6e451-6318-4e06-925a-51258c0b853f" height="120px"></a> | 김용환 <br> **Yany Choi**| PM, Infrastructure |
+| <a href="https://github.com/dddochi"><img src="https://github.com/user-attachments/assets/bae8daeb-cd84-4e68-8186-cfa7cc152ef4" height="120px"></a> | 양다인 <br> **dddochi** | FrontEnd | 
+| <a href="https://github.com/codrin2"><img src="https://github.com/user-attachments/assets/b9cfdafb-d409-4265-908f-4357dbe24cc9" height="120px"></a> | 문희상 <br> **Hee Sang**| BackEnd |
+| <a href="https://github.com/anonkorea4869"><img src="https://github.com/user-attachments/assets/145945f1-bb9f-4bfc-95df-4417cfe2fd48" height="120px"></a> | 김대훈 <br> **Kim daehun**| Crawling, Algorithm |
+
+
+
+<br>
+
 # 🔥 기능
 
 ### 📑기능 리스트
